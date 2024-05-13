@@ -1,0 +1,30 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Lato', sans-serif;
+}
+/* Tittle Section Start */
+.Tittle{
+    position: absolute;
+    top: 50%;
+    right: 30%;
+    transform: translateY(-50%);
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.2)), url(./src/main/resources/images/renault-4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.Tittle .content p{
+    text-align: left;
+}
+/* Tittle Section End */
+
+
+/* Description Section Start */
+/* Description Section End */
+
+/* Home Section Start */
+/* Home Section Ende */
