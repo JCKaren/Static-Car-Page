@@ -13,12 +13,19 @@
                 margin: 0;
                 padding: 0;
             }
+           
+            .row-tittle-area{
+                justify-content: center; 
+                align-items: center;
+
+            }
+            
             .container-centered {
                 display: flex;
                 justify-content: center;
                 align-items: flex-start;
                 height: 100%;
-                margin-top: 200px;
+                margin-top: 10px;
             }
             .description-area {
                 background-color: #3c4445;
@@ -31,36 +38,68 @@
             .tittle-area h2 {
                 color: #C51212;
             }
+            .center {
+
+                text-align: center;
+            }
+            
+            header{
+                background-color: black;
+                color: aliceblue;
+                padding: auto;
+                text-align: center;
+                display: flex;
+                align-items: center;
+            }
+            img{
+                width: 100%;
+                height: auto;
+            }
         </style>
     </head>
     <body>
+    <header>
+        <div class="header">
+        <h1 >renault</h1>
+        </div>
+    </header>
+    <img src="styles/img/renautl-4-background.jpg" alt="CarImage" class="img-fluid">
         <div class="container-centered">
             <div class="container">
+                <div class="center">
+                    <h2>Renault 4</h2>
+                  </div>
                 <div class="row">
-                    <!-- Car Image Section-->
-                    <div class="col-md-6">
-                        <img src="styles/img/renault-4.jpg" alt="CarImage" class="img-fluid" width="400" height="400">
-                       <!-- <img src="C:\Personal\code\Tecnicas\StaticWebPage\StaticCarPage\src\main\resources\images\renault-4.png" alt="CarImage" class="img-fluid" width="400" height="400">-->
-                    </div>
-                    <div class="col-md-6">
-                        <!-- Tittle Section -->
-                        <div class="row tittle-area">
-                            <div class="col">
-                                <h2>Renault 4</h2>
-                            </div>
-                        </div>
+                    <div class="col-md-6">                        
                         <!-- Description Section -->
                         <div class="row description-area">
                             <div class="col">
                                 <p>El frances "Amigo fiel" que desde los años 60 <br> 
                                     revoluciono la industria esta para quedarse.</p>
-                                <a href="stats.html">
-                                <button type="submit" class="btn btn-outline-danger">Conoce mas</button>
-                                </a>
+                            </div>
+                        </div>
+                        <div class="row description-area">
+                            <div class="col">
+                                <p>¡Un clásico que dejó huella en la historia automovilística! </p>
                             </div>
                         </div>
                     </div>
+                    <div class="col-md-6">                        
+                        <!-- Description Section -->
+                        <div class="row description-area">
+                            <div class="col">
+                                <p>El Renault 4, también conocido como "Quatrelle", 
+                                    fue un automóvil económico producido por Renault desde 1961 
+                                    hasta 1994. Fue el primer automóvil de producción masiva con
+                                     carrocería hatchback y tracción delantera.</p>
+                            </div>
+                        </div>
+                        
+                    </div>
                 </div>
+                <a href="stats.html">
+                    <button type="submit" class="btn btn-outline-danger">Conoce mas</button>
+                    </a>
             </div>
         </div>
     </body>
