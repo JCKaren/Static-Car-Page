@@ -1,0 +1,76 @@
+.background-image {
+    margin-bottom: 20px; 
+}
+
+.description-area {
+    background-color: #3c4445;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px; 
+}
+
+.description-area p {
+    text-align: center;
+    color: white;
+}
+
+.center {
+    margin: auto;
+    width: 15%;
+    padding: 20px;
+}
+
+header {
+    background-color: black;
+    color: aliceblue;
+    padding: auto;
+    display: flex;
+    align-items: center;
+}
+
+.header img {
+    width: 100px;
+    height: 100px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.card {
+    width: 100%; 
+    height: auto; 
+    background-color: darkgray;
+    margin-bottom: 20px; 
+    margin-top: 20px;
+}
+
+.footer {
+    background-color: black;
+    color: aliceblue;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto; 
+}
+
+.footer p {
+    font-size: 40px;
+    color: aliceblue;
+    text-align: center
+}
+.custom-btn {
+    background-color: #88a8ca;
+    color: black;
+    font-size: 16px; 
+    padding: 10px 20px; 
+}
+.tittle-caract {
+    text-align: center; 
+    margin-top: 20px; 
+    margin-bottom: 20px; 
+}
+
+
